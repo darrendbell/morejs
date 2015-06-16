@@ -9,6 +9,7 @@ moneyButton.addEventListener('click',function(){
   console.log(totalMoney);
 });
 
+
 var billinput =document.getElementById('money_spent');
 var billButton =document.getElementById('money_spent_button');
 var totalBill=0;
@@ -16,6 +17,5 @@ var totalBill=0;
 billButton.addEventListener('click',function(){
   totalBill =billinput.value;
   console.log(totalBill);
-  total.innerHTML= totalMoney - totalBill;
+  total.innerHTML =totalMoney - totalBill;
 });
-
